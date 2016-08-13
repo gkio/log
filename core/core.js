@@ -1,5 +1,5 @@
 module.exports = {
-    production : true,
+    production : false,
     port: function(){
         if(!this.production){
             return 3000
